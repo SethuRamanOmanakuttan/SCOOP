@@ -1,0 +1,118 @@
+{
+  "metadata": {
+    "lastUpdated": "2025-05-24",
+    "version": "1.0.0"
+  },
+  "featuredEvents": [
+    {
+      "id": "event-001",
+      "title": "Ethereum Developer Conference 2025",
+      "description": "Join the largest Ethereum developer conference with workshops, talks, and networking opportunities.",
+      "date": "2025-06-15",
+      "location": "San Francisco, CA",
+      "imageUrl": "https://images.unsplash.com/photo-1523961131990-5ea7c61b2107",
+      "registrationUrl": "https://example.com/eth-dev-conf",
+      "tags": ["ethereum", "conference", "web3"],
+      "isFeatured": true,
+      "organizer": "Ethereum Foundation",
+      "attendees": 1500
+    }
+  ],
+  "events": [
+    {
+      "id": "event-002",
+      "title": "Web3 Security Workshop",
+      "description": "Learn about the latest security practices for Web3 applications and smart contracts.",
+      "date": "2025-07-10",
+      "location": "Online",
+      "imageUrl": "https://images.unsplash.com/photo-1560472355-536de3962603",
+      "registrationUrl": "https://example.com/web3-security",
+      "tags": ["security", "workshop", "web3"],
+      "isFeatured": false,
+      "organizer": "Web3 Security Alliance",
+      "attendees": 500
+    },
+    {
+      "id": "event-003",
+      "title": "Solidity Bootcamp",
+      "description": "Intensive 3-day bootcamp for learning Solidity from basics to advanced concepts.",
+      "date": "2025-08-05",
+      "location": "Berlin, Germany",
+      "imageUrl": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3",
+      "registrationUrl": "https://example.com/solidity-bootcamp",
+      "tags": ["solidity", "bootcamp", "smart-contracts"],
+      "isFeatured": false,
+      "organizer": "Blockchain Academy",
+      "attendees": 200
+    },
+    {
+      "id": "event-004",
+      "title": "DeFi Summit 2025",
+      "description": "Explore the future of decentralized finance with industry leaders and innovators.",
+      "date": "2025-09-20",
+      "location": "Singapore",
+      "imageUrl": "https://images.unsplash.com/photo-1551288049-bebda4e38f71",
+      "registrationUrl": "https://example.com/defi-summit",
+      "tags": ["defi", "finance", "blockchain"],
+      "isFeatured": false,
+      "organizer": "DeFi Alliance",
+      "attendees": 1200
+    }
+  ],
+  "announcements": [
+    {
+      "id": "announcement-001",
+      "title": "DevBase Now Supports Solana Projects",
+      "content": "We're excited to announce that DevBase now supports Solana projects! Explore the growing ecosystem of Solana developers and projects.",
+      "date": "2025-05-20",
+      "type": "feature",
+      "link": "/explore?ecosystem=solana",
+      "isHighlighted": true
+    },
+    {
+      "id": "announcement-002",
+      "title": "Join Our Discord Community",
+      "content": "Connect with fellow developers, share your projects, and get help from the community in our Discord server.",
+      "date": "2025-05-15",
+      "type": "community",
+      "link": "https://discord.gg/devbase",
+      "isHighlighted": false
+    },
+    {
+      "id": "announcement-003",
+      "title": "Upcoming Maintenance: May 30",
+      "content": "DevBase will be undergoing scheduled maintenance on May 30 from 2-4 AM UTC. Some features may be temporarily unavailable.",
+      "date": "2025-05-22",
+      "type": "maintenance",
+      "link": "/status",
+      "isHighlighted": true
+    }
+  ],
+  "filters": [
+    {
+      "id": "all",
+      "label": "All",
+      "icon": "Globe"
+    },
+    {
+      "id": "web3",
+      "label": "Web3",
+      "icon": "Blocks"
+    },
+    {
+      "id": "ai",
+      "label": "AI",
+      "icon": "Brain"
+    },
+    {
+      "id": "conferences",
+      "label": "Conferences",
+      "icon": "Users"
+    },
+    {
+      "id": "workshops",
+      "label": "Workshops",
+      "icon": "Laptop"
+    }
+  ]
+}
